@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: aa36e4606d1c1b649a84c7446e60a722
+timeCreated: 1457943347
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_Boole_12_Boole9_Boole_19_Boole6_W_rfel2
+    100002: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_Boole_12_Boole9_Boole_19_Boole6_W_rfel_11
+    100004: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_Boole_12_Boole9_W_rfel_12
+    100006: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_Boole_12_W_rfel5
+    100008: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_W_rfel6
+    100010: Boole10_Boole5_Boole_15_Boole1_Boole_11_W_rfel10
+    100012: Boole10_Boole5_Boole_15_Boole1_W_rfel_16
+    100014: Boole10_Boole5_Boole_15_W_rfel_22
+    100016: Boole10_Boole5_W_rfel11
+    100018: Boole10_W_rfel14
+    100020: First_Etage_1_WALL_Boole_16_W_rfel_1
+    100022: First_Etage_1_WALL_Boole_16_W_rfel_2
+    100024: First_Etage_1_WALL_W_rfel
+    100026: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_Boole3_Boole_1_Boole2_W_rfel3
+    100028: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_Boole3_Boole_1_Boole2_W_rfel_13
+    100030: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_Boole3_Boole_1_W_rfel4
+    100032: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_Boole3_W_rfel_14
+    100034: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_W_rfel7
+    100036: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_W_rfel9
+    100038: First_Etage_Boole7_Boole_17_Boole4_Boole_14_W_rfel8
+    100040: First_Etage_Boole7_Boole_17_Boole4_W_rfel_15
+    100042: First_Etage_Boole7_Boole_17_W_rfel_21
+    100044: First_Etage_Boole7_W_rfel12
+    100046: First_Etage_WALL1_Boole_18_W_rfel_17
+    100048: First_Etage_WALL1_Boole_18_W_rfel_23
+    100050: First_Etage_WALL1_W_rfel13
+    100052: //RootNode
+    100054: Pyramide
+    100056: W_rfel1
+    400000: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_Boole_12_Boole9_Boole_19_Boole6_W_rfel2
+    400002: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_Boole_12_Boole9_Boole_19_Boole6_W_rfel_11
+    400004: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_Boole_12_Boole9_W_rfel_12
+    400006: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_Boole_12_W_rfel5
+    400008: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_W_rfel6
+    400010: Boole10_Boole5_Boole_15_Boole1_Boole_11_W_rfel10
+    400012: Boole10_Boole5_Boole_15_Boole1_W_rfel_16
+    400014: Boole10_Boole5_Boole_15_W_rfel_22
+    400016: Boole10_Boole5_W_rfel11
+    400018: Boole10_W_rfel14
+    400020: First_Etage_1_WALL_Boole_16_W_rfel_1
+    400022: First_Etage_1_WALL_Boole_16_W_rfel_2
+    400024: First_Etage_1_WALL_W_rfel
+    400026: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_Boole3_Boole_1_Boole2_W_rfel3
+    400028: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_Boole3_Boole_1_Boole2_W_rfel_13
+    400030: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_Boole3_Boole_1_W_rfel4
+    400032: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_Boole3_W_rfel_14
+    400034: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_W_rfel7
+    400036: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_W_rfel9
+    400038: First_Etage_Boole7_Boole_17_Boole4_Boole_14_W_rfel8
+    400040: First_Etage_Boole7_Boole_17_Boole4_W_rfel_15
+    400042: First_Etage_Boole7_Boole_17_W_rfel_21
+    400044: First_Etage_Boole7_W_rfel12
+    400046: First_Etage_WALL1_Boole_18_W_rfel_17
+    400048: First_Etage_WALL1_Boole_18_W_rfel_23
+    400050: First_Etage_WALL1_W_rfel13
+    400052: //RootNode
+    400054: Pyramide
+    400056: W_rfel1
+    2300000: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_Boole_12_Boole9_Boole_19_Boole6_W_rfel2
+    2300002: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_Boole_12_Boole9_Boole_19_Boole6_W_rfel_11
+    2300004: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_Boole_12_Boole9_W_rfel_12
+    2300006: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_Boole_12_W_rfel5
+    2300008: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_W_rfel6
+    2300010: Boole10_Boole5_Boole_15_Boole1_Boole_11_W_rfel10
+    2300012: Boole10_Boole5_Boole_15_Boole1_W_rfel_16
+    2300014: Boole10_Boole5_Boole_15_W_rfel_22
+    2300016: Boole10_Boole5_W_rfel11
+    2300018: Boole10_W_rfel14
+    2300020: First_Etage_1_WALL_Boole_16_W_rfel_1
+    2300022: First_Etage_1_WALL_Boole_16_W_rfel_2
+    2300024: First_Etage_1_WALL_W_rfel
+    2300026: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_Boole3_Boole_1_Boole2_W_rfel3
+    2300028: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_Boole3_Boole_1_Boole2_W_rfel_13
+    2300030: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_Boole3_Boole_1_W_rfel4
+    2300032: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_Boole3_W_rfel_14
+    2300034: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_W_rfel7
+    2300036: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_W_rfel9
+    2300038: First_Etage_Boole7_Boole_17_Boole4_Boole_14_W_rfel8
+    2300040: First_Etage_Boole7_Boole_17_Boole4_W_rfel_15
+    2300042: First_Etage_Boole7_Boole_17_W_rfel_21
+    2300044: First_Etage_Boole7_W_rfel12
+    2300046: First_Etage_WALL1_Boole_18_W_rfel_17
+    2300048: First_Etage_WALL1_Boole_18_W_rfel_23
+    2300050: First_Etage_WALL1_W_rfel13
+    2300052: Pyramide
+    2300054: W_rfel1
+    3300000: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_Boole_12_Boole9_Boole_19_Boole6_W_rfel2
+    3300002: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_Boole_12_Boole9_Boole_19_Boole6_W_rfel_11
+    3300004: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_Boole_12_Boole9_W_rfel_12
+    3300006: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_Boole_12_W_rfel5
+    3300008: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_W_rfel6
+    3300010: Boole10_Boole5_Boole_15_Boole1_Boole_11_W_rfel10
+    3300012: Boole10_Boole5_Boole_15_Boole1_W_rfel_16
+    3300014: Boole10_Boole5_Boole_15_W_rfel_22
+    3300016: Boole10_Boole5_W_rfel11
+    3300018: Boole10_W_rfel14
+    3300020: First_Etage_1_WALL_Boole_16_W_rfel_1
+    3300022: First_Etage_1_WALL_Boole_16_W_rfel_2
+    3300024: First_Etage_1_WALL_W_rfel
+    3300026: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_Boole3_Boole_1_Boole2_W_rfel3
+    3300028: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_Boole3_Boole_1_Boole2_W_rfel_13
+    3300030: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_Boole3_Boole_1_W_rfel4
+    3300032: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_Boole3_W_rfel_14
+    3300034: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_W_rfel7
+    3300036: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_W_rfel9
+    3300038: First_Etage_Boole7_Boole_17_Boole4_Boole_14_W_rfel8
+    3300040: First_Etage_Boole7_Boole_17_Boole4_W_rfel_15
+    3300042: First_Etage_Boole7_Boole_17_W_rfel_21
+    3300044: First_Etage_Boole7_W_rfel12
+    3300046: First_Etage_WALL1_Boole_18_W_rfel_17
+    3300048: First_Etage_WALL1_Boole_18_W_rfel_23
+    3300050: First_Etage_WALL1_W_rfel13
+    3300052: Pyramide
+    3300054: W_rfel1
+    4300000: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_Boole_12_Boole9_Boole_19_Boole6_W_rfel2
+    4300002: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_Boole_12_Boole9_Boole_19_Boole6_W_rfel_11
+    4300004: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_Boole_12_Boole9_W_rfel_12
+    4300006: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_Boole_12_W_rfel5
+    4300008: Boole10_Boole5_Boole_15_Boole1_Boole_11_Boole8_W_rfel6
+    4300010: Boole10_Boole5_Boole_15_Boole1_Boole_11_W_rfel10
+    4300012: Boole10_Boole5_Boole_15_Boole1_W_rfel_16
+    4300014: Boole10_Boole5_Boole_15_W_rfel_22
+    4300016: Boole10_Boole5_W_rfel11
+    4300018: Boole10_W_rfel14
+    4300020: First_Etage_1_WALL_Boole_16_W_rfel_1
+    4300022: First_Etage_1_WALL_Boole_16_W_rfel_2
+    4300024: First_Etage_1_WALL_W_rfel
+    4300026: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_Boole3_Boole_1_Boole2_W_rfel3
+    4300028: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_Boole3_Boole_1_Boole2_W_rfel_13
+    4300030: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_Boole3_Boole_1_W_rfel4
+    4300032: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_Boole3_W_rfel_14
+    4300034: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_Boole_13_W_rfel7
+    4300036: First_Etage_Boole7_Boole_17_Boole4_Boole_14_Boole_W_rfel9
+    4300038: First_Etage_Boole7_Boole_17_Boole4_Boole_14_W_rfel8
+    4300040: First_Etage_Boole7_Boole_17_Boole4_W_rfel_15
+    4300042: First_Etage_Boole7_Boole_17_W_rfel_21
+    4300044: First_Etage_Boole7_W_rfel12
+    4300046: First_Etage_WALL1_Boole_18_W_rfel_17
+    4300048: First_Etage_WALL1_Boole_18_W_rfel_23
+    4300050: First_Etage_WALL1_W_rfel13
+    4300052: Pyramide
+    4300054: W_rfel1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

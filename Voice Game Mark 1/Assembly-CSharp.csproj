@@ -45,7 +45,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AnalyzeObject.cs" />
      <Compile Include="Assets\Narrator.cs" />
+     <Compile Include="Assets\OpenDoor.cs" />
      <Compile Include="Assets\RotateLight.cs" />
      <Compile Include="Assets\Trigger.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />

@@ -3,6 +3,12 @@ using System.Collections;
 
 public class Narrator : MonoBehaviour {
 
+
+	public GameObject bedDoor;
+	public GameObject kitchenDoor;
+	public GameObject hallDoor;
+	public GameObject houseDoor;
+
 	AudioSource player_Dialog;
 	public AudioClip TestSound;
 
@@ -24,6 +30,11 @@ public class Narrator : MonoBehaviour {
 		Debug.Log("lol2");
 		player_Dialog.clip = TestSound;
 		player_Dialog.Play();
+
+		houseDoor.GetComponent<OpenDoor>().DoorFunction();
+		bedDoor.GetComponent<OpenDoor>().DoorFunction();
+		kitchenDoor.GetComponent<OpenDoor>().DoorFunction();
+		hallDoor.GetComponent<OpenDoor>().DoorFunction();
 	}
 
 	public void DayOne () {

@@ -8,6 +8,7 @@ public class Narrator : MonoBehaviour {
 	public GameObject kitchenDoor;
 	public GameObject hallDoor;
 	public GameObject houseDoor;
+	public GameObject LighthouseDoor;
 
 	AudioSource player_Dialog;
 	public AudioClip TestSound;
@@ -35,6 +36,7 @@ public class Narrator : MonoBehaviour {
 		bedDoor.GetComponent<OpenDoor>().DoorFunction();
 		kitchenDoor.GetComponent<OpenDoor>().DoorFunction();
 		hallDoor.GetComponent<OpenDoor>().DoorFunction();
+		LighthouseDoor.GetComponent<OpenDoor>().DoorFunction();
 	}
 
 	public void DayOne () {

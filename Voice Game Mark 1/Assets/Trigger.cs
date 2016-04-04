@@ -5,7 +5,12 @@ public class Trigger : MonoBehaviour {
 
 	public GameObject narrator;
 
-	public bool test;
+	public bool interact;
+
+	public bool routine;
+	public bool window;
+	public bool cloth;
+	public bool waterbasin;
 
 	// Use this for initialization
 	void Start () {
@@ -17,13 +22,62 @@ public class Trigger : MonoBehaviour {
 	
 	}
 
-	void OnTriggerEnter(Collider other) {
+	void OnTriggerStay(Collider other) {
 		if(other.gameObject.tag == "Player") {
-			if(test) {
-			Debug.Log("lol");
-			narrator.GetComponent<Narrator>().Test();
-			Destroy(gameObject);
+
+			if(interact) {
+				narrator.GetComponent<Narrator>().TurnTextOn();
+			}
+
+			if(narrator.GetComponent<AudioSource>().isPlaying) {
+
+				Debug.Log("Nope");
+
+			} else {
+
+				if(interact) {
+
+
+					if(Input.GetKey(KeyCode.E)) {
+						
+						if(waterbasin) {
+							narrator.GetComponent<Narrator>().WaterBasin();
+							Destroy(this);
+						}
+
+						if(cloth) {
+							narrator.GetComponent<Narrator>().Cloth();
+							Destroy(gameObject);
+						}
+
+						if(window) {
+							narrator.GetComponent<Narrator>().Window();
+							Destroy(gameObject);
+						}
+
+						narrator.GetComponent<Narrator>().TurnTextOff();
+					}
+
+
+				} else {
+
+					if(routine) {
+						narrator.GetComponent<Narrator>().Routine();
+						Destroy(gameObject);
+					}
+
+
+
+				}
 			}
 		}
 	}
+
+	void OnTriggerExit(Collider other) {
+		if(other.gameObject.tag == "Player") {
+			narrator.GetComponent<Narrator>().TurnTextOff();
+
+		}
+	}
+
 }

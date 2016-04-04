@@ -22,7 +22,7 @@ public class AnalyzeObject : MonoBehaviour {
 			if(hit.collider.tag == "Readable") {
 				infoText.GetComponent<Text>().text = hit.collider.gameObject.name;
 			} else {
-				infoText.GetComponent<Text>().text = " ";
+				//infoText.GetComponent<Text>().text = " ";
 			}
 
 

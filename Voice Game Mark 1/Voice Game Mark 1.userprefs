@@ -1,10 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Narrator.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Sleep.cs">
     <Files>
-      <File FileName="Assets\Narrator.cs" Line="39" Column="58" />
+      <File FileName="Assets\Sleep.cs" Line="20" Column="61" />
+      <File FileName="Assets\Narrator.cs" Line="118" Column="3" />
       <File FileName="Assets\OpenDoor.cs" Line="1" Column="1" />
-      <File FileName="Assets\RotateLight.cs" Line="1" Column="1" />
+      <File FileName="Assets\Trigger.cs" Line="55" Column="26" />
+      <File FileName="Assets\AnalyzeObject.cs" Line="25" Column="7" />
+      <File FileName="Assets\MovementScript.cs" Line="37" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

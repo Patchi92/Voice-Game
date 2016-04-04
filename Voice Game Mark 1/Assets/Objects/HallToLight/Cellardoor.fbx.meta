@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: badf036438d69b345b960dea6b22a4cf
+timeCreated: 1459605499
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box02
+    100002: Box03
+    100004: //RootNode
+    100006: Cylinder01
+    100008: Cylinder02
+    100010: doorhinge:Box02
+    100012: doorhinge:Box03
+    100014: doorhinge:Cylinder01
+    100016: doorhinge:Cylinder02
+    100018: doorhinge:Cylinder03
+    100020: doorhinge:transform1
+    100022: doorhinge:transform10
+    100024: doorhinge:transform11
+    100026: doorhinge:transform12
+    100028: doorhinge:transform2
+    100030: doorhinge:transform3
+    100032: doorhinge:transform4
+    100034: doorhinge:transform5
+    100036: doorhinge:transform6
+    100038: doorhinge:transform7
+    100040: doorhinge:transform8
+    100042: doorhinge:transform9
+    100044: doorhinge:Tube01
+    100046: doorhinge:Tube02
+    100048: doorhinge:Tube03
+    100050: doorhinge:Tube04
+    100052: doorhinge:Tube05
+    100054: Lock_obj:Box01
+    100056: Lock_obj:Object01
+    100058: Lock_obj:Object02
+    100060: Lock_obj:Rectangle03
+    100062: Lock_obj:transform1
+    100064: Lock_obj:transform2
+    100066: nurbsCircle1
+    100068: pCube15
+    100070: pCube16
+    100072: polySurface846
+    100074: polySurface847
+    100076: Rectangle03
+    100078: Rectangle04
+    100080: transform902
+    100082: transform903
+    100084: transform904
+    100086: transform905
+    100088: transform906
+    100090: transform907
+    100092: transform908
+    100094: transform909
+    100096: Tube01
+    100098: Tube02
+    100100: Tube03
+    100102: Tube04
+    100104: Tube05
+    400000: Box02
+    400002: Box03
+    400004: //RootNode
+    400006: Cylinder01
+    400008: Cylinder02
+    400010: doorhinge:Box02
+    400012: doorhinge:Box03
+    400014: doorhinge:Cylinder01
+    400016: doorhinge:Cylinder02
+    400018: doorhinge:Cylinder03
+    400020: doorhinge:transform1
+    400022: doorhinge:transform10
+    400024: doorhinge:transform11
+    400026: doorhinge:transform12
+    400028: doorhinge:transform2
+    400030: doorhinge:transform3
+    400032: doorhinge:transform4
+    400034: doorhinge:transform5
+    400036: doorhinge:transform6
+    400038: doorhinge:transform7
+    400040: doorhinge:transform8
+    400042: doorhinge:transform9
+    400044: doorhinge:Tube01
+    400046: doorhinge:Tube02
+    400048: doorhinge:Tube03
+    400050: doorhinge:Tube04
+    400052: doorhinge:Tube05
+    400054: Lock_obj:Box01
+    400056: Lock_obj:Object01
+    400058: Lock_obj:Object02
+    400060: Lock_obj:Rectangle03
+    400062: Lock_obj:transform1
+    400064: Lock_obj:transform2
+    400066: nurbsCircle1
+    400068: pCube15
+    400070: pCube16
+    400072: polySurface846
+    400074: polySurface847
+    400076: Rectangle03
+    400078: Rectangle04
+    400080: transform902
+    400082: transform903
+    400084: transform904
+    400086: transform905
+    400088: transform906
+    400090: transform907
+    400092: transform908
+    400094: transform909
+    400096: Tube01
+    400098: Tube02
+    400100: Tube03
+    400102: Tube04
+    400104: Tube05
+    2300000: Box03
+    2300002: doorhinge:Box03
+    2300004: doorhinge:Tube01
+    2300006: Lock_obj:Object02
+    2300008: Lock_obj:Rectangle03
+    2300010: polySurface846
+    2300012: polySurface847
+    3300000: Box03
+    3300002: doorhinge:Box03
+    3300004: doorhinge:Tube01
+    3300006: Lock_obj:Object02
+    3300008: Lock_obj:Rectangle03
+    3300010: polySurface846
+    3300012: polySurface847
+    4300000: doorhinge:Box03
+    4300002: doorhinge:Tube01
+    4300004: Box03
+    4300006: Lock_obj:Rectangle03
+    4300008: polySurface846
+    4300010: polySurface847
+    4300012: Lock_obj:Object02
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

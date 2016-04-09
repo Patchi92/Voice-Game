@@ -45,15 +45,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AnalyzeObject.cs" />
-     <Compile Include="Assets\FadeBlack.cs" />
-     <Compile Include="Assets\MistTrigger.cs" />
-     <Compile Include="Assets\MovementScript.cs" />
-     <Compile Include="Assets\Narrator.cs" />
-     <Compile Include="Assets\OpenDoor.cs" />
-     <Compile Include="Assets\RotateLight.cs" />
-     <Compile Include="Assets\Sleep.cs" />
-     <Compile Include="Assets\Trigger.cs" />
+     <Compile Include="Assets\Scripts\AnalyzeObject.cs" />
+     <Compile Include="Assets\Scripts\FadeBlack.cs" />
+     <Compile Include="Assets\Scripts\Menu.cs" />
+     <Compile Include="Assets\Scripts\MistTrigger.cs" />
+     <Compile Include="Assets\Scripts\MovementScript.cs" />
+     <Compile Include="Assets\Scripts\NarratorChapterOne.cs" />
+     <Compile Include="Assets\Scripts\NarratorChapterTwo.cs" />
+     <Compile Include="Assets\Scripts\OpenDoor.cs" />
+     <Compile Include="Assets\Scripts\PlayMenu.cs" />
+     <Compile Include="Assets\Scripts\RotateLight.cs" />
+     <Compile Include="Assets\Scripts\Sleep.cs" />
+     <Compile Include="Assets\Scripts\TriggerChapterOne.cs" />
+     <Compile Include="Assets\Scripts\TriggerChapterTwo.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />

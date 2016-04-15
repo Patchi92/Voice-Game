@@ -45,18 +45,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ChangeAmbiance.cs" />
+     <Compile Include="Assets\FlickLight.cs" />
+     <Compile Include="Assets\PlayerSpeed.cs" />
      <Compile Include="Assets\Scripts\AnalyzeObject.cs" />
      <Compile Include="Assets\Scripts\FadeBlack.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\MistTrigger.cs" />
      <Compile Include="Assets\Scripts\MovementScript.cs" />
      <Compile Include="Assets\Scripts\NarratorChapterOne.cs" />
+     <Compile Include="Assets\Scripts\NarratorChapterThree.cs" />
      <Compile Include="Assets\Scripts\NarratorChapterTwo.cs" />
      <Compile Include="Assets\Scripts\OpenDoor.cs" />
      <Compile Include="Assets\Scripts\PlayMenu.cs" />
      <Compile Include="Assets\Scripts\RotateLight.cs" />
      <Compile Include="Assets\Scripts\Sleep.cs" />
      <Compile Include="Assets\Scripts\TriggerChapterOne.cs" />
+     <Compile Include="Assets\Scripts\TriggerChapterThree.cs" />
      <Compile Include="Assets\Scripts\TriggerChapterTwo.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />

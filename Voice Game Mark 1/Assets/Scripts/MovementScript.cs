@@ -6,6 +6,7 @@ public class MovementScript : MonoBehaviour {
 	// Player
 	bool playercontrol = true;
 	public bool playerLockdown = true;
+	public bool playerFalling = false;
 
 	//Movement
 
@@ -13,6 +14,13 @@ public class MovementScript : MonoBehaviour {
 	public float gravity;
 	private Vector3 moveDirection = Vector3.zero;
 
+	bool standUp = false;
+	bool layDown = false;
+	float standSpeed = 5;
+
+	Vector3 yScalePoint = new Vector3(1,1,1);
+	Vector3 yScalePointUp = new Vector3(1,1,1);
+	Vector3 yScalePointDown = new Vector3(1,0.1f,1);
 
 	// Look Around
 
@@ -28,7 +36,11 @@ public class MovementScript : MonoBehaviour {
 
 	float rotationX = 0f;
 	float rotationY = 0f;
-	Quaternion originalRotation;
+
+	public Quaternion originalRotation;
+	public Quaternion saveRotation;
+	public Quaternion xQuaternionInfo;
+	public Quaternion yQuaternionInfo;
 
 	// Use this for initialization
 	void Start () {
@@ -74,36 +86,51 @@ public class MovementScript : MonoBehaviour {
 
 
 			// Look Around
+			if(!playerFalling) {
+				if(axes == RotationAxes.MouseXandY) {
 
-			if(axes == RotationAxes.MouseXandY) {
+					rotationX += Input.GetAxis("Mouse X") * sensitivityX;
+					rotationY += Input.GetAxis("Mouse Y") * sensitivityY;
+					rotationX = ClampAngle(rotationX,minimumX,maximumX);
+					rotationY = ClampAngle(rotationY,minimumY,maximumY);
+					Quaternion xQuaternion = Quaternion.AngleAxis(rotationX, Vector3.up);
+					Quaternion yQuaternion = Quaternion.AngleAxis(rotationY, -Vector3.right);
 
-				rotationX += Input.GetAxis("Mouse X") * sensitivityX;
-				rotationY += Input.GetAxis("Mouse Y") * sensitivityY;
-				rotationX = ClampAngle(rotationX,minimumX,maximumX);
-				rotationY = ClampAngle(rotationY,minimumY,maximumY);
-				Quaternion xQuaternion = Quaternion.AngleAxis(rotationX, Vector3.up);
-				Quaternion yQuaternion = Quaternion.AngleAxis(rotationY, -Vector3.right);
+					transform.localRotation = originalRotation * xQuaternion * yQuaternion;
 
-				transform.localRotation = originalRotation * xQuaternion * yQuaternion;
+				} else if (axes == RotationAxes.MouseX) {
 
-			} else if (axes == RotationAxes.MouseX) {
+					rotationX += Input.GetAxis("Mouse X") * sensitivityX;
+					rotationX = ClampAngle(rotationX,minimumX,maximumX);
+					Quaternion xQuaternion = Quaternion.AngleAxis(rotationX, Vector3.up);
 
-				rotationX += Input.GetAxis("Mouse X") * sensitivityX;
-				rotationX = ClampAngle(rotationX,minimumX,maximumX);
-				Quaternion xQuaternion = Quaternion.AngleAxis(rotationX, Vector3.up);
+					transform.localRotation = originalRotation * xQuaternion;
 
-				transform.localRotation = originalRotation * xQuaternion;
+				} else {
 
-			} else {
+					rotationY += Input.GetAxis("Mouse Y") * sensitivityY;
+					rotationY = ClampAngle (rotationY,minimumY,maximumY);
+					Quaternion yQuaternion = Quaternion.AngleAxis(rotationY, -Vector3.right);
 
-				rotationY += Input.GetAxis("Mouse Y") * sensitivityY;
-				rotationY = ClampAngle (rotationY,minimumY,maximumY);
-				Quaternion yQuaternion = Quaternion.AngleAxis(rotationY, -Vector3.right);
-
-				transform.localRotation = originalRotation * yQuaternion;
+					transform.localRotation = originalRotation * yQuaternion;
+				}
 			}
 
 		}
+
+		if(standUp) {
+			yScalePoint = Vector3.Lerp(yScalePoint, yScalePointUp, Time.deltaTime * standSpeed);
+			gameObject.transform.localScale = yScalePoint;
+
+		}
+
+		if(layDown) {
+			yScalePoint = Vector3.Lerp(yScalePoint, yScalePointDown, Time.deltaTime * standSpeed);
+			gameObject.transform.localScale = yScalePoint;
+
+		}
+
+
 	}
 
 	public static float ClampAngle (float angle, float min, float max) {
@@ -126,5 +153,17 @@ public class MovementScript : MonoBehaviour {
 
 	public void AwakePlayer() {
 		playercontrol = true;
+	}
+
+	public void StandUp() {
+		standUp = true;
+		layDown = false;
+		yScalePoint = yScalePointDown;
+	}
+
+	public void LayDown() {
+		layDown = true;
+		standUp = false;
+		yScalePoint = yScalePointUp;
 	}
 }

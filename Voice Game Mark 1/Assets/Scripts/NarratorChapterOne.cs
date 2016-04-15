@@ -79,6 +79,8 @@ public class NarratorChapterOne : MonoBehaviour {
 	// Obejcts
 
 	public GameObject radioStatic;
+	public GameObject waterInteract;
+	public GameObject lighthouseSwitchLight;
 
 
 	// Use this for initialization
@@ -123,9 +125,9 @@ public class NarratorChapterOne : MonoBehaviour {
 		infoText.SetActive(true);
 
 		if(gameObject.GetComponent<AudioSource>().isPlaying) {
-			interactText.GetComponent<Text>().text = "Waiting for you to stop talking";
+			interactText.GetComponent<Text>().text = "Wait until monolog is finished";
 		} else {
-			interactText.GetComponent<Text>().text = "Press 'E' to interact";
+			interactText.GetComponent<Text>().text = "Press 'E'";
 		}
 	}
 
@@ -188,6 +190,7 @@ public class NarratorChapterOne : MonoBehaviour {
 		sound_Effect.clip = sound_waterbasin;
 		sound_Effect.Play();
 
+		Destroy(waterInteract);
 		player.GetComponent<MovementScript>().StunPlayer(3);
 		unlockBedDoorOne = true;
 
@@ -211,13 +214,17 @@ public class NarratorChapterOne : MonoBehaviour {
 	}
 
 	public void Radio() {
-		player_Dialog.clip = radioNoise;
-		player_Dialog.Play();
-
 		sound_Effect.clip = sound_radio;
 		sound_Effect.Play();
 
 		radioStatic.GetComponent<AudioSource>().Play();
+
+		Invoke("RadioTwo",2);
+	}
+
+	void RadioTwo() {
+		player_Dialog.clip = radioNoise;
+		player_Dialog.Play();
 	}
 
 	public void Coffee() {
@@ -298,8 +305,9 @@ public class NarratorChapterOne : MonoBehaviour {
 		sound_Effect.Play();
 
 		lightSwitch.GetComponent<OpenDoor>().DoorFunction();
+		lighthouseSwitchLight.SetActive(true);
 		Invoke("Fade",12);
-		Invoke("NextLevel",18);
+		Invoke("NextLevel",20);
 
 	}
 

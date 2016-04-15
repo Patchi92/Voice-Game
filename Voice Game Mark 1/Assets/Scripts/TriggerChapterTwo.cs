@@ -24,6 +24,10 @@ public class TriggerChapterTwo : MonoBehaviour {
 	public bool rememberName;
 	public bool realiseName;
 
+	public bool remember;
+	public bool rememberMe;
+	public bool madeleine;
+
 
 	// Use this for initialization
 	void Start () {
@@ -124,8 +128,27 @@ public class TriggerChapterTwo : MonoBehaviour {
 						Destroy(gameObject);
 					}
 
+
+
 				}
 
+			}
+
+			// Madeleine
+
+			if(remember) {
+				narrator.GetComponent<NarratorChapterTwo>().MadeleineRemember();
+				Destroy(gameObject);
+			}
+
+			if(rememberMe) {
+				narrator.GetComponent<NarratorChapterTwo>().MadeleineRememberMe();
+				Destroy(gameObject);
+			}
+
+			if(madeleine) {
+				narrator.GetComponent<NarratorChapterTwo>().MadeleineMadeleine();
+				Destroy(gameObject);
 			}
 
 		}

@@ -62,7 +62,7 @@ public class TriggerChapterTwo : MonoBehaviour {
 
 				if(interact) {
 
-					if(Input.GetKey(KeyCode.E)) {
+					if(Input.GetKeyDown(KeyCode.E)) {
 
 
 

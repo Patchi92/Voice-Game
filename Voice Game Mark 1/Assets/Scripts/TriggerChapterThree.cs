@@ -65,7 +65,7 @@ public class TriggerChapterThree : MonoBehaviour {
 
 				if(interact) {
 
-					if(Input.GetKey(KeyCode.E)) {
+					if(Input.GetKeyDown(KeyCode.E)) {
 
 						if(key) {
 							narrator.GetComponent<NarratorChapterThree>().Key();
@@ -109,12 +109,10 @@ public class TriggerChapterThree : MonoBehaviour {
 
 						if(enterCeller) {
 							narrator.GetComponent<NarratorChapterThree>().EnterCellerPoint();
-							Destroy(gameObject);
 						}
 
 						if(leaveCeller) {
 							narrator.GetComponent<NarratorChapterThree>().LeaveCellerPoint();
-							Destroy(gameObject);
 						}
 
 						narrator.GetComponent<NarratorChapterThree>().TurnTextOff();

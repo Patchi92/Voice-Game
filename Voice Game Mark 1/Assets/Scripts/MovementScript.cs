@@ -73,6 +73,8 @@ public class MovementScript : MonoBehaviour {
 				controller.Move(moveDirection * Time.deltaTime);
 
 
+				/*
+
 				if(Input.GetKeyDown(KeyCode.LeftShift)) {
 
 					speed = 8;
@@ -82,6 +84,7 @@ public class MovementScript : MonoBehaviour {
 
 					speed = 2;
 				}
+				*/
 			}
 
 

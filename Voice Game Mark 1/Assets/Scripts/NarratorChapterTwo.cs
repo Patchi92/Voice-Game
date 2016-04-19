@@ -166,9 +166,8 @@ public class NarratorChapterTwo : MonoBehaviour {
 
 		player.GetComponent<MovementScript>().speed = 2;
 
-		Invoke("MadeleineRememberMe",3);
-		Invoke("MadeleineMadeleine",7);
-		Invoke("LighthouseTopQuestionThree",9);
+		Invoke("Fade",12);
+		Invoke("NextLevel",19);
 
 	}
 
@@ -184,7 +183,7 @@ public class NarratorChapterTwo : MonoBehaviour {
 		player_Dialog.clip = realiseName;
 		player_Dialog.Play();
 
-		Invoke("Fade",2);
+		Invoke("Fade",12);
 		Invoke("NextLevel",10);
 	}
 

@@ -26,6 +26,9 @@ public class NarratorChapterThree : MonoBehaviour {
 	public GameObject frameWithMadeleinePoint;
 	public GameObject letter;
 
+	public GameObject fineLight;
+	public GameObject strangeLight;
+
 	public GameObject lastSection;
 	public GameObject choiceTime;
 
@@ -124,12 +127,6 @@ public class NarratorChapterThree : MonoBehaviour {
 
 
 
-		if(Input.GetKeyDown(KeyCode.K)) {
-			LighthouseDoor.GetComponent<OpenDoor>().DoorFunction();
-			lastSection.SetActive(true);
-		}
-
-
 
 
 	}
@@ -188,8 +185,8 @@ public class NarratorChapterThree : MonoBehaviour {
 	}
 
 	public void CanIReturn() {
-		player_Dialog.clip = canIReturn;
-		player_Dialog.Play();
+		//player_Dialog.clip = canIReturn;
+		//player_Dialog.Play();
 
 		movieTime.SetActive(false);
 		lightIsFine.SetActive(true);
@@ -228,7 +225,7 @@ public class NarratorChapterThree : MonoBehaviour {
 	}
 
 	public void LetterFromMadeleine() {
-		letter.SetActive(false);
+		//letter.SetActive(false);
 		Invoke("ReadLetterFromMadeleine",6);
 	}
 
@@ -236,12 +233,16 @@ public class NarratorChapterThree : MonoBehaviour {
 		player_Dialog.clip = readLetterFromMadeleine;
 		player_Dialog.Play();
 
+		letter.SetActive(false);
 		Invoke("LightIsStrange",62);
 	}
 
 	public void LightIsStrange() {
 		player_Dialog.clip = lightIsStrange;
 		player_Dialog.Play();
+
+		fineLight.SetActive(false);
+		strangeLight.SetActive(true);
 
 		houseDoor.GetComponent<OpenDoor>().DoorFunction();
 		lastSection.SetActive(true);
@@ -269,6 +270,12 @@ public class NarratorChapterThree : MonoBehaviour {
 		player_Dialog.clip = endingA;
 		player_Dialog.Play();
 
+		player.GetComponent<MovementScript>().playerLockdown = true;
+		player.transform.LookAt(madeleineEnd.transform);
+		player.transform.eulerAngles = new Vector3(0,player.transform.rotation.y + 190,0);
+		choiceTime.SetActive(true);
+
+
 		Invoke("EndingB",18);
 	}
 
@@ -286,6 +293,7 @@ public class NarratorChapterThree : MonoBehaviour {
 		turnCamLeft = false;
 		player.GetComponent<MovementScript>().playerLockdown = false;
 		player.GetComponent<MovementScript>().originalRotation = player.GetComponent<MovementScript>().saveRotation;
+
 	}
 
 

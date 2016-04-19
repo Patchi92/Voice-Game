@@ -68,7 +68,7 @@ public class TriggerChapterOne : MonoBehaviour {
 				if(interact) {
 
 
-					if(Input.GetKey(KeyCode.E)) {
+					if(Input.GetKeyDown(KeyCode.E)) {
 						
 						if(waterbasin) {
 							narrator.GetComponent<NarratorChapterOne>().WaterBasin();

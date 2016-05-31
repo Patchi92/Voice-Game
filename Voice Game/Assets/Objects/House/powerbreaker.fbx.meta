@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: 00544f16d48107a4684e663ba0c632c8
+timeCreated: 1458653043
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: d_model:Component1_001
+    100002: d_model:Component1_002
+    100004: d_model:Component1_003
+    100006: d_model:Component1_004
+    100008: d_model:Component1_005
+    100010: d_model:Component1_006
+    100012: d_model:Component1_007
+    100014: d_model:Component1_008
+    100016: d_model:Component1_009
+    100018: d_model:Component1_010
+    100020: d_model:Component1_011
+    100022: d_model:Component1_012
+    100024: d_model:Component1_013
+    100026: d_model:Component1_014
+    100028: d_model:Component1_015
+    100030: d_model:Component1_016
+    100032: d_model:Component1_017
+    100034: d_model:Component2_001
+    100036: d_model:Component2_002
+    100038: d_model:Component3_001
+    100040: d_model:Component3_002
+    100042: d_model:Component4_001
+    100044: d_model:Component4_002
+    100046: d_model:skp8923_001
+    100048: d_model:transform1
+    100050: d_model:transform10
+    100052: d_model:transform11
+    100054: d_model:transform12
+    100056: d_model:transform13
+    100058: d_model:transform14
+    100060: d_model:transform15
+    100062: d_model:transform16
+    100064: d_model:transform17
+    100066: d_model:transform18
+    100068: d_model:transform19
+    100070: d_model:transform2
+    100072: d_model:transform20
+    100074: d_model:transform21
+    100076: d_model:transform22
+    100078: d_model:transform3
+    100080: d_model:transform4
+    100082: d_model:transform5
+    100084: d_model:transform6
+    100086: d_model:transform7
+    100088: d_model:transform8
+    100090: d_model:transform9
+    100092: //RootNode
+    400000: d_model:Component1_001
+    400002: d_model:Component1_002
+    400004: d_model:Component1_003
+    400006: d_model:Component1_004
+    400008: d_model:Component1_005
+    400010: d_model:Component1_006
+    400012: d_model:Component1_007
+    400014: d_model:Component1_008
+    400016: d_model:Component1_009
+    400018: d_model:Component1_010
+    400020: d_model:Component1_011
+    400022: d_model:Component1_012
+    400024: d_model:Component1_013
+    400026: d_model:Component1_014
+    400028: d_model:Component1_015
+    400030: d_model:Component1_016
+    400032: d_model:Component1_017
+    400034: d_model:Component2_001
+    400036: d_model:Component2_002
+    400038: d_model:Component3_001
+    400040: d_model:Component3_002
+    400042: d_model:Component4_001
+    400044: d_model:Component4_002
+    400046: d_model:skp8923_001
+    400048: d_model:transform1
+    400050: d_model:transform10
+    400052: d_model:transform11
+    400054: d_model:transform12
+    400056: d_model:transform13
+    400058: d_model:transform14
+    400060: d_model:transform15
+    400062: d_model:transform16
+    400064: d_model:transform17
+    400066: d_model:transform18
+    400068: d_model:transform19
+    400070: d_model:transform2
+    400072: d_model:transform20
+    400074: d_model:transform21
+    400076: d_model:transform22
+    400078: d_model:transform3
+    400080: d_model:transform4
+    400082: d_model:transform5
+    400084: d_model:transform6
+    400086: d_model:transform7
+    400088: d_model:transform8
+    400090: d_model:transform9
+    400092: //RootNode
+    2300000: d_model:Component1_017
+    2300002: d_model:Component4_002
+    3300000: d_model:Component1_017
+    3300002: d_model:Component4_002
+    4300000: d_model:Component4_002
+    4300002: d_model:Component1_017
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{D9D2DCB3-6429-0EC8-50F2-ACC33B2A7AC3}") = "Voice Game", "Assembly-CSharp-firstpass.csproj", "{14A609AE-9B4E-AB4D-D314-2907BE2E771D}"
+EndProject
+Project("{D9D2DCB3-6429-0EC8-50F2-ACC33B2A7AC3}") = "Voice Game", "Assembly-CSharp.csproj", "{A6AE5D05-D5FB-769F-3EBC-37AE8F4FB341}"
+EndProject
+Project("{D9D2DCB3-6429-0EC8-50F2-ACC33B2A7AC3}") = "Voice Game", "Assembly-CSharp-Editor.csproj", "{D0750420-1F49-576C-EB4E-507A140ABB5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14A609AE-9B4E-AB4D-D314-2907BE2E771D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A609AE-9B4E-AB4D-D314-2907BE2E771D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A609AE-9B4E-AB4D-D314-2907BE2E771D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A609AE-9B4E-AB4D-D314-2907BE2E771D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6AE5D05-D5FB-769F-3EBC-37AE8F4FB341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6AE5D05-D5FB-769F-3EBC-37AE8F4FB341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6AE5D05-D5FB-769F-3EBC-37AE8F4FB341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6AE5D05-D5FB-769F-3EBC-37AE8F4FB341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0750420-1F49-576C-EB4E-507A140ABB5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0750420-1F49-576C-EB4E-507A140ABB5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0750420-1F49-576C-EB4E-507A140ABB5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0750420-1F49-576C-EB4E-507A140ABB5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
